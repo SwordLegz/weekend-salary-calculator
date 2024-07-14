@@ -1,6 +1,31 @@
+
 let myTotal = 0;
 
+
 function submitEmployeeInfo(event) {
+    let message = [];
+
+    if (firstName.value === '' || firstName.value == null) {
+      message.push('Required')
+    }
+    if (lastName.value === '' || lastName.value == null) {
+      message.push('Required')
+    }
+    if (idNumber.value === '' || idNumber.value == null) {
+      message.push('Required')
+    }
+    if (jobTitle.value === '' || jobTitle.value == null) {
+      message.push('Required')
+    }
+    if (annualSalary.value === '' || annualSalary.value == null) {
+      message.push('Required')
+    }
+    if (message.length > 0) {
+      e.preventDefault()
+      errorElement.innerText = message.join(', ')
+    }
+
+
     event.preventDefault(); 
     let firstNameInput = document.getElementById('firstName').value;
     let lastNameInput = document.getElementById('lastName').value;
@@ -64,3 +89,4 @@ function resetForm() {
   let inputs = document.querySelectorAll("input");
   inputs.forEach((input) => (input.value = ""));
 }
+

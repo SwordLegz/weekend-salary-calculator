@@ -15,32 +15,35 @@
   <main>
     <section class="sectionOne">
     <h2 id="h2">Add Employee:</h2>
+    <div id="error"></div>
     <form id="form">
-      <input type="text"
+      <input type="text" required 
              id="firstName"
              data-testid="firstNameInput"
              placeholder="First Name">
-      <input type="text"
+      <input type="text" required
              id="lastName"
              data-testid="lastNameInput"
              placeholder="Last Name">
-      <input type="text"
+      <input type="text" required
              id="idNumber"
              data-testid="idInput"
              placeholder="ID Number">
-      <input type="text"
+      <input type="text" required
              id="jobTitle"
              data-testid="titleInput"
              list="browsers" name="browser" id="browser"
              placeholder="Job Title">
               <datalist id="browsers">
-                <option value="Sales Associate">
-                <option value="Assistant Manager">
-                <option value="Store Manager">
-                <option value="Supervisor">
-                <option value="Director">
+                <option value="Creative Thinker">
+                <option value="Gap Detector">
+                <option value="Motivator">
+                <option value="Negotiator">
+                <option value="Pattern Mapper">
+                <option value="Peacemaker">
+                <option value="Problem Solver">
               </datalist>
-      <input type="number"
+      <input type="number" required
              id="annualSalary"
              data-testid="annualSalaryInput"
              placeholder="Annual Salary">

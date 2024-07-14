@@ -62,8 +62,8 @@ Nifty!
 * The `over-budget` CSS class must be applied to the `<footer>` element when the total monthly salary exceeds $20,000.
 
 **PLEASE DO**:
-* Leverage the tests to ensure that you are satisfying each of the requirements.
-* Run the tests often to verify your code's behavior as you implement each step of required functionality.
+<!-- * Leverage the tests to ensure that you are satisfying each of the requirements.
+* Run the tests often to verify your code's behavior as you implement each step of required functionality. -->
 
 ## Wireframe:
 
