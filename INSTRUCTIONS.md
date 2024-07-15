@@ -65,6 +65,11 @@ Nifty!
 <!-- * Leverage the tests to ensure that you are satisfying each of the requirements.
 * Run the tests often to verify your code's behavior as you implement each step of required functionality. -->
 
+
+
+
+
+
 ## Wireframe:
 
 ![Wireframe](salary-calc-wireframe.png)
@@ -76,5 +81,12 @@ Nifty!
 * Add styling or extra functionality that fits with the theme of this assignment. (Feel free to be super creative!)
 
 * When an employee is deleted, update the footer's monthly cost to reflect that employee's removal. _HINT:_ You will need to figure out which employee was removed, in order to subtract their salary from the total. This is tricky! 
+
+
+
+
+
+
+
 
 

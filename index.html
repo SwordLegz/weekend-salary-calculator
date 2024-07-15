@@ -8,14 +8,13 @@
 </head>
 
 <body class="body">
-  <header id="header">
+  <header class="header">
     <h1>Salary Calculator</h1>
   </header>
 
   <main>
     <section class="sectionOne">
     <h2 id="h2">Add Employee:</h2>
-    <div id="error"></div>
     <form id="form">
       <input type="text" required 
              id="firstName"
@@ -25,7 +24,7 @@
              id="lastName"
              data-testid="lastNameInput"
              placeholder="Last Name">
-      <input type="text" required
+      <input type="number" required
              id="idNumber"
              data-testid="idInput"
              placeholder="ID Number">
@@ -57,15 +56,12 @@
              </p>
            </select>
           </form> 
-
     </form>
     <p id="Warning"></p>
     </section>
 
-    
-
-    <section id="sectionTwo">
-    <h2 class="h2Two">Employees:</h2>
+    <section class="sectionTwo">
+    <h2 id="h2Two">Employees:</h2>
       <table>
         <thead>
           <tr>
@@ -81,11 +77,9 @@
         </tbody>
       </table>
     </section>
-
-    
   </main>
 
-  <footer id="footer">
+  <footer class="footer">
     <p>Total Monthly: 
       <div id="totalMonthly"
       type="number">
